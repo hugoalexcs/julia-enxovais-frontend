@@ -1,0 +1,10 @@
+{
+  "name": "julia.enxovais",
+  "private": true,
+  "dependencies": {
+    "alertify.js": "0.3.11",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "latest",
+    "eonasdan-bootstrap-datetimepicker": "^4.17.43"
+  }
+}

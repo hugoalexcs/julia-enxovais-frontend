@@ -15,9 +15,34 @@
       "prefix": "app",
       "mobile": false,
       "styles": [
-        "styles.css"
+        "styles.css",
+        "../node_modules/bootstrap/dist/css/bootstrap.css",
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "../node_modules/bootstrap-timepicker/css/bootstrap-timepicker.min.css",
+        "../node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css",
+        
+        "../bower_components/font-awesome/css/font-awesome.min.css",
+        "../bower_components/alertify.js/themes/alertify.core.css",
+        "../bower_components/alertify.js/themes/alertify.bootstrap.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../bower_components/jquery/dist/jquery.min.js",
+        "../bower_components/alertify.js/lib/alertify.min.js",
+        "../bower_components/moment/min/moment.min.js",
+        "../bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js",
+        "../bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css",
+
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js",
+        "../node_modules/core-js/client/shim.min.js",
+        "../node_modules/zone.js/dist/zone.js",
+        "../node_modules/reflect-metadata/Reflect.js",
+        "../node_modules/systemjs/dist/system.src.js",
+        "../node_modules/lodash/lodash.js",
+        "../node_modules/ng2-datetime/src/vendor/bootstrap-datepicker/bootstrap-datepicker.min.js",
+        "../node_modules/ng2-datetime/src/vendor/bootstrap-timepicker/bootstrap-timepicker.min.js",
+        "../systemjs.config.js"
+      ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
